@@ -3,5 +3,6 @@ name = "three-headed-shellcode"
 version = "0.1.0"
 authors = ["Yaron Dinkin <yaron@dinkin.io>"]
 edition = "2018"
+license = "GPL-3.0"
 
 [dependencies]
