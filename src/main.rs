@@ -5,7 +5,7 @@ use std::num::Wrapping;
 use rand::random;
 use unicorn::{Error, Cpu, CpuX86, CpuARM, CpuMIPS};
 
-const MAX_EMU_TIME_MS : u64 = 60 * 1000;
+const MAX_EMU_TIME_MS : u64 = 1000;
  
 fn main() {
     let args: Vec<String> = env::args().collect();
